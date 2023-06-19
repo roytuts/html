@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Text Over Images</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<style>
+		.img_container {
+		  height: 1224px;
+		  width: 90%;
+		  margin: 100px auto;
+		}
+
+		.img_row {
+		  display: grid;
+		  grid-template-columns: repeat(2, auto);
+		  gap: 20px;
+		}
+
+		.img_cat {
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  position: relative;
+		}
+
+		.img_clss img {
+		  height: auto;
+		  border-radius: 5px;
+		}
+
+		.title {
+		  position: absolute;
+		  left: 50%;
+		  top: 50%;
+		  color: white;
+		  transform: translate(-50%, -50%);
+		}
+	</style>
+</head>
+<body>
+	<div class="img_container">
+	  <div class="img_row">
+		<div class="img_cat">
+		  <div class="img_clss">
+			<img src="1.jfif" alt="">
+		  </div>
+		  <div class="title">
+			<h2>Nature</h2>
+		  </div>
+		</div>
+		<div class="img_cat">
+		  <div class="img_clss">
+			<img src="2.jfif" alt="">
+		  </div>
+		  <div class="title">
+			<h2>Pool</h2>
+		  </div>
+		</div>
+		<div class="img_cat">
+		  <div class="img_clss">
+			<img src="3.jfif" alt="">
+		  </div>
+		  <div class="title">
+			<h2>Cloud</h2>
+		  </div>
+		</div>
+		<div class="img_cat">
+		  <div class="img_clss">
+			<img src="4.jfif" alt="">
+		  </div>
+		  <div class="title">
+			<h2>Dawn</h2>
+		  </div>
+		</div>
+	  </div>
+	</div>
+</body>
+</html>
