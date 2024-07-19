@@ -1,1 +1,1 @@
-You can read tutorial https://www.roytuts.com/sticky-footer-at-bottom-using-css-and-html/
+Please follow the tutorial https://roytuts.com/sticky-footer-at-bottom-using-css-and-html/
